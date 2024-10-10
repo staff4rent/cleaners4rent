@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaners4Rent - Professional Cleaning Services</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-image: url('background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 150px;
+            height: auto;
+            transition: transform 0.3s ease; 
+        }
+        .logo:hover {
+            transform: scale(1.2); 
+        }
+        header h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        header .cta-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #28a745;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+        }
+        header .cta-button:hover {
+            background-color: #218838; 
+            transform: scale(1.05); 
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+        }
+        .footer-logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .divider-logo {
+            display: block;
+            margin: 40px auto;
+            width: 80px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Cleaners4Rent Logo" class="logo">
+        <h1>Cleaners4Rent</h1>
+        <p>Your Trusted Cleaning Services Partner</p>
+        <button class="cta-button">Book Now</button>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Cleaners4Rent offers professional cleaning services tailored to your needs. From residential to commercial spaces, we ensure a spotless result every time.</p>
+    </section>
+
+    <img src="logo-divider.svg" alt="Cleaners4Rent Divider Logo" class="divider-logo">
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Home Cleaning</h3>
+                <p>Get your home sparkling clean with our thorough home cleaning service.</p>
+            </div>
+            <div class="service">
+                <h3>Office Cleaning</h3>
+                <p>Keep your office environment clean and productive with our office cleaning service.</p>
+            </div>
+            <div class="service">
+                <h3>Move-in/Move-out Cleaning</h3>
+                <p>Leave your old space spotless or prepare your new home with our move-in/move-out cleaning.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="logo-footer.svg" alt="Cleaners4Rent Footer Logo" class="footer-logo">
+        <p>&copy; 2024 Cleaners4Rent | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
